@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>INDEX002</title>
+</head>
+<body>
+    
+    <!--  표(table) 관련 -->
+    <table border="1">
+        <thead>
+            <th>1열</th>
+            <th>2열</th>
+            <th>3열</th>
+        </thead>
+        <tr>    <!-- 행(우선 만들 것) -->
+            <td>1행1열</td>   <!-- 열 --> 
+            <td>1행2열</td>
+            <td>1행3열</td>
+        </tr>
+        <tr>    <!-- 행(우선 만들 것) -->
+            <td>2행1열</td>   <!-- 열 --> 
+            <td>2행2열</td>
+            <td>2행3열</td>
+        </tr>
+        <tr>    <!-- 행(우선 만들 것) -->
+            <td>3행1열</td>   <!-- 열 --> 
+            <td>3행2열</td> 
+            <td>3행3열</td>
+        </tr>
+    </table>
+
+    <table border="1">
+        <tr>
+            <td rowspan="2">과목/학기</td>   <!-- rowspan = 행 병합 -->
+            <td colspan="2">국어</td>   <!-- colspan = 열 병합 -->
+            <td colspan="2">수학</td>   <!-- colspan 한 만큼 열 삭제 -->
+            <td colspan="2">영어</td>
+        </tr>
+        <tr>
+            <td>1학기</td>   <!-- rowspan했으니 1행 삭제-->
+            <td>2학기</td>
+            <td>1학기</td>
+            <td>2학기</td>
+            <td>1학기</td>
+            <td>2학기</td>
+        </tr>
+        <tr>
+            <td>홍길동</td>
+            <td>80</td>
+            <td>90</td>
+            <td>40</td>
+            <td>50</td>
+            <td>60</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>박찬호</td>
+            <td>58</td>
+            <td>48</td>
+            <td>98</td>
+            <td>87</td>
+            <td>76</td>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>박세리</td>
+            <td>25</td>
+            <td>50</td>
+            <td>75</td>
+            <td>100</td>
+            <td>90</td>
+            <td>80</td>
+        </tr>
+        
+    </table>
+
+
+    
+
+</body>
+</html>
